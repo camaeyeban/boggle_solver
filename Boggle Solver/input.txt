@@ -1,0 +1,73 @@
+8
+3
+A B C
+D E F
+G H I
+3
+P R I
+A C N
+D E S
+4
+A B C D
+E F G H
+I J K L
+M N O P
+4
+Z Y X W
+V U T S
+R Q P O
+N M L K
+5
+B E R T S
+P S A Q O
+M W U D G
+O N H J I
+I K A L C
+6
+B E R T S P
+P S A Q O S
+M W U D G A
+O N H J I R
+I K A L C K
+L L S N O S
+10
+B E R T S P R I N C
+P S A Q O S E S S E
+M W U D G A J D I P
+O N H J I R O C K E
+I K A L C K N O W R
+L L S N O S T E M S
+P N E U M O N O U L
+T R A M I C R O S C
+O P I C S I L I C A
+V O L C A N O C O N
+13
+P N E U M O N O U L T R A
+I S C I P O C S O R C I M
+L I C A V O L C A N O C O
+N I O S I S S U P E R C A
+C I T S I L I G A R F I L
+E X P I A L I D O C I O U
+L O H C O C I T A P E H S
+A N G I O C H O L E C Y S
+E I M O T S O R E T N E T
+N O M O T O P O P P I H S
+S T R O S E S Q U I P E D
+E S I D I T N A N A I L A
+S T A B L I S H M E N T A
+15
+P N E U M O N O U L T R A T U
+I S C I P O C S O R C I M H N
+L I C A V O L C A N O C O E I
+N I O S I S S U P E R C A Q V
+C I T S I L I G A R F I L U E
+E X P I A L I D O C I O U I R
+L O H C O C I T A P E H S C S
+A N G I O C H O L E C Y S K E
+E I M O T S O R E T N E T B L
+N O M O T O P O P P I H S R I
+S T R O S E S Q U I P E D O F
+E S I D I T N A N A I L A W E
+S T A B L I S H M E N T A N E
+E S R E V O S P M U J X O F V
+Y T R O F S I G N I H T Y R E

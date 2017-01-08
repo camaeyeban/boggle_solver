@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Boggle.js</title>
+
+		<style type="text/css">
+
+		body{
+			font-family: tahoma;
+		}
+
+		#mainDiv{
+			float: left;
+			width:100%;
+		}
+
+		#buttonDiv{
+
+			float: left;
+			width: 650px;
+			min-height: 610px;
+
+		}
+		
+		#buttons{
+			margin: auto;
+		}
+
+		.bglbtn{
+			min-width: 40px;
+			min-height: 40px;
+			font-size: 22px;
+			text-align: center;
+			border-color: lightgray;
+			border-width: 1px;
+			margin: 2px;
+		}
+
+		#uiSide{
+			float: left;
+			width: 300px;
+			height: 100%;
+			margin: 5px;
+			border-style: solid;
+			border-color: lightgray;
+			border-width: 1px;
+			
+		}
+		
+		#ui{
+			margin: 20px;
+			margin-right: 26px;
+		}
+
+		#answers{
+			resize: none;
+			width: 100%;
+			height: 175px;
+		}
+
+		#tray-select{
+
+			height: 25px;
+			width: 80%;
+			margin-left: 28px;
+
+		}
+
+		#ui-footer{
+			width: 100%;
+			height: 20px;
+			margin-top: 10px;
+			font-size: 12px;
+			text-align: center;
+		}
+
+		a {
+			color: rgb(80,80,80);
+		}
+
+		text {
+
+			font-size: 12px;
+			font-family: Arial;
+
+
+		}
+
+		</style>
+	
+	</head>
+	<body>
+
+		<div id="mainDiv">
+
+			<div id="uiSide">
+
+				<div id="ui">
+				
+					<h3>Boggle.JS</h3>
+					
+					<text>Load Dictionary:</text>
+					<input type="file" id="dictionary" name="dictionary"/>
+					<br><br>
+					<text>Load Map:</text>
+					<input type="file" id="map" name="map" disabled="true" />
+					
+					<div style="height: 60px">
+						<h5 style="margin-bottom: 0px">Input</h5>
+						<input type="text" style="width: 180px" id="input"></input><button id="input-ok" style="width: 70px" onclick="input(13)">OK</button>
+					</div>
+
+					<h5 style="margin-bottom: 2px; margin-top: 2px">Answers</h5>
+					<h6 id="total-answers" style="margin-bottom: 2px; margin-top: 2px">Total Answers: </h6>
+					<textarea id="answers" readonly></textarea>
+					
+					<button id="solve" onclick="reset()" style="margin-top: 4px;margin-left: 22px;width: 85%;height: 30px;font-size: 16px">Reset</button>
+					<button id="solve" onclick="showAnswers()" style="margin: 4px;margin-left: 22px;width: 85%;height: 30px;font-size: 16px">Show Answers</button>
+					
+					<select id="tray-select" onchange="switchTray(this.value)">
+						<option value="1">Tray 1</option>
+					</select>
+
+					<div id="ui-footer" >
+						<a href="#" onclick="showAbout()">About</a> <text style="font-size: 10px">&#149<text> <a href="#" onclick="showHelp()">Help</a>
+					</div>
+
+				</div>
+			
+			</div>
+
+			<div id="buttonDiv">
+				<div id="buttons">
+				</div>
+			</div>
+
+		</div>
+		
+	</body>
+
+	<script type="text/javascript" src="trie.js"></script>
+	<script type="text/javascript" src="boggle-ui.js"></script>
+	<script type="text/javascript" src="boggle-ui-multitray.js"></script>
+	<script type="text/javascript" src="boggle-ui-init.js"></script>
+	<script type="text/javascript" src="boggle-solver.js"></script>
+
+</html>
